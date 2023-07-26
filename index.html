@@ -4,21 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/87c3b4a7a2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
     <title>chetan</title>
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <div id="headers">
+    <div id="headers" class="home-img">
       <div id="container">
         <nav id="nav-menu">
           <img src="/images/logo.png" alt="" class="logo" />
           <ul>
             <li><a href="" class="nav-link home">Home</a></li>
-            <li><a href="" class="nav-link about">About</a></li>
-            <li><a href="" class="nav-link skills">Skill</a></li>
-            <li><a href="" class="nav-link projects">Projects</a></li>
+            <li><a href="#about" class="nav-link about">About</a></li>
+            <li><a href="#skills" class="nav-link skills">Skill</a></li>
+            <li><a href="#projects" class="nav-link projects">Projects</a></li>
             <li><a href="" class="nav-link contact">Contact</a></li>
-            <!-- Element linked to Resume : class="nav-link resume" baki hai -->
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1njeowS1QBWYIFw6hZ0m7Gkd84Zwyp2X6/view?usp=sharing"
+                class="nav-link resume"
+                >Resume</a
+              >
+            </li>
           </ul>
         </nav>
         <div style="display: flex">
@@ -28,19 +48,171 @@
               Hi, I'm <br /><span>Chetan</span>
               Chauhan
             </h1>
-            <p id="user-detail-intro">
-              An adept Full Stack Developer with hands-on experience in the MERN
-              stack, capable of designing and delivering complex web
-              applications. Experienced in web development with a focus on
-              creating responsive and user-friendly web interfaces. Skilled in
-              building scalable and robust web applications. Possessing
-              exceptional problem-solving skills, an ideal fit for a challenging
-              position.
-            </p>
+            <a href="/images/Resume.pdf" download class="btn">Resume</a>
           </div>
         </div>
       </div>
     </div>
-    <div id="about" class="about section"></div>
+    <div id="about" class="about section">
+      <div id="myinfo">
+        <h1 style="margin-bottom: 30px">About</h1>
+        <h2>I'am Chetan Chauhan</h2>
+        <p id="user-detail-intro">
+          An adept Full Stack Developer with hands-on experience in the MERN
+          stack, capable of designing and delivering complex web applications.
+          Experienced in web development with a focus on creating responsive and
+          user-friendly web interfaces. Skilled in building scalable and robust
+          web applications. Possessing exceptional problem-solving skills, an
+          ideal fit for a challenging position.
+        </p>
+        <div id="copy">
+          <p>Drop a mail</p>
+          <img src="/images/copy.png" alt="" onclick="copyToClipboard()" />
+        </div>
+      </div>
+    </div>
+    <div id="skills">
+      <h1>techstack</h1>
+      <div id="techstack">
+        <div>
+          <img src="/images/1.png" alt="" />
+          <h3>Html</h3>
+        </div>
+        <div>
+          <img src="/images/2.png" alt="" />
+          <h3>Css</h3>
+        </div>
+        <div>
+          <img src="/images/3.png" alt="" />
+          <h3>JavaScript</h3>
+        </div>
+        <div>
+          <img src="/images/4.png" alt="" />
+          <h3>React</h3>
+        </div>
+        <div>
+          <img src="/images/5.png" alt="" />
+          <h3>Redux</h3>
+        </div>
+        <div>
+          <img src="/images/6.png" alt="" />
+          <h3>Git & GitHub</h3>
+        </div>
+        <div>
+          <img src="/images/7.png" alt="" />
+          <h3>Node Js</h3>
+        </div>
+        <div>
+          <img src="/images/8.png" alt="" />
+          <h3>Express Js</h3>
+        </div>
+        <div>
+          <img src="/images/9.png" alt="" />
+          <h3>MongoDB</h3>
+        </div>
+        <div>
+          <img src="/images/10.png" alt="" />
+          <h3>DSA</h3>
+        </div>
+        <div>
+          <img src="/images/11.png" alt="" />
+          <h3>Vs Code</h3>
+        </div>
+        <div>
+          <img src="/images/12.png" alt="" />
+          <h3>Netlify</h3>
+        </div>
+      </div>
+    </div>
+    <div id="projects">
+      <h1>Projects</h1>
+      <div id="main_projects">
+        <div>
+          <img src="/images/specxy.png" alt="" />
+          <h4>Specxy</h4>
+          <p>
+            Specxy is an clone of Lenskart which typically offers a range of
+            glasses and sunglasses for purchase, with options for multiple
+            Frames.
+          </p>
+          <h4>Features:-</h4>
+          <p>
+            Login-Signup,Admin-Side,Sortfunctionality,Add to Cart,Payment page.
+          </p>
+          <h4>Tech Stack:-</h4>
+          <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>JavaScript</li>
+          </ul>
+          <p>A collaborative project built by team of 5 members in 5 days.</p>
+          <br />
+          <a href="https://github.com/GaneshYadav3142/rotten-snakes-6255"
+            ><p>
+              <i class="fa-brands fa-github" style="color: #ff004f"></i>&nbsp
+              Code Base
+            </p></a
+          >
+          <a href="https://glittering-cucurucho-a9b3ca.netlify.app/">
+            <p>
+              <i class="fa-solid fa-link" style="color: #ff004f"></i>&nbsp Go to
+              Live Project
+              <span
+                style="
+                  background-color: #ff004f;
+                  padding: 3px 10px;
+                  border-radius: 5px;
+                  margin-left: 10px;
+                  color: white;
+                "
+                >Live</span
+              >
+            </p>
+          </a>
+        </div>
+        <div>
+          <img src="/images/cozmo store.png" alt="" />
+          <h4>COZMO STORE</h4>
+          <p>
+            COZMO STORE is a clone of Store.com which is USA based E-commerce
+            website that sells variety of products like furniture, Electronics,
+            clothing etc. .
+          </p>
+          <h4>Features:-</h4>
+          <p>Login-Signup,Add to Cart,Payment page</p>
+          <h4>Tech Stack:-</h4>
+          <ul>
+            <li>HTML</li>
+            <li>Css</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>API</li>
+          </ul>
+          <a href="https://github.com/chetan791/-giving-tramp-6540"
+            ><p>
+              <i class="fa-brands fa-github" style="color: #ff004f"></i>&nbsp
+              Code Base
+            </p></a
+          >
+          <a href="https://super-gecko-3de993.netlify.app/">
+            <p>
+              <i class="fa-solid fa-link" style="color: #ff004f"></i>&nbsp Go to
+              Live Project
+              <span
+                style="
+                  background-color: #ff004f;
+                  padding: 3px 10px;
+                  border-radius: 5px;
+                  margin-left: 10px;
+                  color: white;
+                "
+                >Live</span
+              >
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
+<script src="/index.js"></script>
