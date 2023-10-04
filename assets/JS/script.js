@@ -38,6 +38,18 @@ navToggleBtn.addEventListener("click", function () {
   elemToggleFunc(document.body);
 });
 
+const navLinks = navbar.querySelectorAll(".nav-link");
+
+// Function to close the navbar
+function closeNavbar() {
+  navbar.classList.remove("active"); // Assuming "active" class controls the visibility
+}
+
+// Add click event listeners to navigation links
+navLinks.forEach((link) => {
+  link.addEventListener("click", closeNavbar);
+});
+
 /**
  * skills toggle
  */

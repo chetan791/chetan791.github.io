@@ -194,7 +194,7 @@ body.active {
 
 .w-100 {
   width: 100%;
-  filter: drop-shadow(5px -2px 30px rgb(223, 203, 160));
+  /* filter: drop-shadow(5px -2px 30px rgb(223, 203, 160)); */
   padding: 5%;
 }
 
