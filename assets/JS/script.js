@@ -35,7 +35,6 @@ const navbar = document.querySelector("[data-navbar]");
 navToggleBtn.addEventListener("click", function () {
   elemToggleFunc(navToggleBtn);
   elemToggleFunc(navbar);
-  elemToggleFunc(document.body);
 });
 
 const navLinks = navbar.querySelectorAll(".nav-link");
